@@ -8,7 +8,7 @@ used for personal use
 - CUDA 10.2 (cudnn 8.3.0)
 - Python 3.7
 
-### Requirements
+### Install Torch-Points3D
 - Pytorch 1.10.1
 ```
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
