@@ -1,5 +1,4 @@
-# 3D-Augmentation
-used for personal use
+# INSTALL Torch-Points3D
 
 ## Install
 ### Environments
