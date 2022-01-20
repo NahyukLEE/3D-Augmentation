@@ -1,6 +1,5 @@
-# INSTALL Torch-Points3D
+# INSTALL.md
 
-## Install
 ### Environments
 - Ubuntu 18.04 LTS
 - Nvidia-driver 470
