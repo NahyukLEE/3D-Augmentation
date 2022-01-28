@@ -1,7 +1,5 @@
 #!/bin/sh
 
-// Please use command 'source gpu_check.sh'
-
 echo "-------------------------------------"
 echo "Check CUDA Version"
 nvcc -V
