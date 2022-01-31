@@ -23,3 +23,22 @@ $ git clone https://github.com/charlesq34/pointnet
 python train.py
 (If wandb connected) python train.py --run_name pointnet_reprod_0
 ```
+
+## PointNet2(NIPS 2017, [Non-Official, PyTorch Implementation](https://github.com/NahyukLEE/Pointnet2_PyTorch))
+Need CUDA 10.2, PyTorch==1.5, can use `pytorch1.5` env in nahyuklee@NIPA server.
+
+#### Install
+Install dependency first.
+```
+$ conda install pytorch==1.5.1 torchvision==0.6.1 cudatoolkit=10.2 -c pytorch
+$ https://github.com/NahyukLEE/Pointnet2_PyTorch # I already add -no-secure option
+$ pip install -r requirements.txt
+$ pip install -e .
+```
+- (Optional) Connect wandb.
+- [NOTE] Code is using pytorch-lightning==0.7.1, so check the API, please see https://pytorch-lightning.readthedocs.io/en/0.7.1/ .
+
+#### Run
+```
+python pointnet2/train.py task=cls model=msg
+```
