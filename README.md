@@ -1,5 +1,5 @@
 # 3D-Augmentation
-used for personal use
+used for personal
 
 ## Advise
 - (22.01.06) SOTA라고 주장하는 papers의 reported performance는 과연 network 구조가 우수해서일까, 각기 다른 data augmentation의 효과를 본 것일까? + 어떠한 Augmentation이 좋은 Augmentation인가? + 우리만의 좋은 Augmentation을 고안하자.
